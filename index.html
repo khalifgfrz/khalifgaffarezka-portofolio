@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/output.css" />
+
+    <!-- ===== BOX ICONS ===== -->
+    <link rel="icon" href="assets//img/logo.webp" type="image/jpeg" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+    <title>Khalif Gaffarezka | Portofolio</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Khalif Gaffarezka</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home w-full h-screen" id="home">
+        <div class="home__container bd-grid">
+          <h1 class="home__title tracking-wider leading-tight">
+            Hi, I'am Khalif Gaffarezka <br />
+            Fullstack Web Developer
+          </h1>
+          <div class="home__scroll text-2xl">
+            <a href="#about" class="home__scroll-link">Explore Me<i class="bx bx-down-arrow-alt"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/profile.webp" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Khalif Gaffarezka</h2>
+            <span class="about__profession">Fullstack Web Developer</span>
+            <p class="about__text">
+              A Fullstack Website Developer who is always passionate, adaptable in every situation, and has a high curiosity in technologies. Learned many things about being a Fullstack Website Developer such as JavaScript, ReactJS, NodeJS,
+              ExpressJS, Go language, etc. Previously, I developed several projects, including a Coffee Shop Website, Ticket Booking System, and E-Wallet Platform.
+            </p>
+
+            <div class="about__social flex flex-row items-center justify-center">
+              <a href="https://www.linkedin.com/in/khalif-gaffarezka/" class="about__social-icon">
+                <div class="grid place-items-center">
+                  <i class="bx bxl-linkedin"></i>
+                </div>
+              </a>
+              <a href="https://github.com/khalifgfrz" class="about__social-icon">
+                <div class="grid place-items-center">
+                  <i class="bx bxl-github"></i>
+                </div>
+              </a>
+              <a href="https://www.instagram.com/khalifgfrz_/" class="about__social-icon">
+                <div class="grid place-items-center">
+                  <i class="bx bxl-instagram"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__box">
+            <h3 class="skills__subtitle">Frontend</h3>
+            <span class="skills__name">React.JS</span>
+            <span class="skills__name">React Redux</span>
+            <span class="skills__name">TailwindCSS</span>
+            <span class="skills__name">Bootstrap</span>
+            <span class="skills__name">HTML</span>
+            <span class="skills__name">CSS</span>
+
+            <h3 class="skills__subtitle">Backend</h3>
+            <span class="skills__name">Node.JS</span>
+            <span class="skills__name">Express.JS</span>
+            <span class="skills__name">Gin-Gonic</span>
+
+            <h3 class="skills__subtitle">Programming Language</h3>
+            <span class="skills__name">Golang</span>
+            <span class="skills__name">Typescript</span>
+            <span class="skills__name">Javascript</span>
+          </div>
+
+          <div class="skills__img hidden md:block">
+            <img src="assets/img/skill.webp" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== projects =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="flex-wrap gap-4 justify-center hidden lg:flex">
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="assets/img/Ewallet.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">E-Wallet</h2>
+              <p>
+                Developed a simple website for managing a online transfer & topup over the span of 1 month as a team project and I am as a Frontend, used scrum and agile methodology to developed. The website utilizes ReactJS and Redux for
+                the frontend, styled with Tailwind CSS. The backend is built using ExpressJS and NodeJS, with JSON Web Tokens (JWT) for authentication and unit testing implemented. TypeScript is used as the programming language, and
+                PostgreSQL is employed for the database.
+              </p>
+              <h2 class="">Tech Stack :</h2>
+              <div class="flex-wrap flex gap-4">
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Typescript</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React Redux</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">TailwindCSS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Express.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Node.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">PostgreSQL</div>
+              </div>
+              <div class="card-actions justify-end pt-8">
+                <button class="btn bg-amber-400">
+                  <a href="https://e-wallet-fe-pi.vercel.app/" class="projects__link-name">View details</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="assets/img/Tickitz.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Tickitz</h2>
+              <p>
+                Developed a simple website for managing a online cinema ticket booking over the span of 2 weeks as a team project and I am as a Fullstack, used scrum and agile methodology to developed. The website utilizes ReactJS and Redux
+                for the frontend, styled with Tailwind CSS. The backend is built using Gin Gonic, with JSON Web Tokens (JWT) for authentication and unit testing implemented. TypeScript and Golang is used as the programming language, and
+                PostgreSQL is employed for the database.
+              </p>
+              <h2 class="">Tech Stack :</h2>
+              <div class="flex-wrap flex gap-4">
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Typescript</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Golang</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React Redux</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">TailwindCSS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Gin-Gonic</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">PostgreSQL</div>
+              </div>
+              <div class="card-actions justify-end pt-8">
+                <button class="btn bg-amber-400">
+                  <a href="https://tickitz-seven.vercel.app/" class="projects__link-name">View details</a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="assets/img/Coffee.webp" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Coffee Shop</h2>
+              <p>
+                Developed a coffee and food ordering website over the span of 1 month as an individual project. The website utilizes ReactJS and Redux for the frontend, styled with Tailwind CSS. The backend is built using ExpressJS and
+                NodeJS, with JSON Web Tokens (JWT) for authentication and unit testing implemented. TypeScript is used as the programming language, and PostgreSQL is employed for the database.
+              </p>
+              <h2 class="">Tech Stack :</h2>
+              <div class="flex-wrap flex gap-4">
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Typescript</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">React Redux</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">TailwindCSS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Express.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">Node.JS</div>
+                <div class="badge-warning w-fit items-center justify-center p-2 text-xs rounded-xl">PostgreSQL</div>
+              </div>
+              <div class="card-actions justify-end pt-8">
+                <button class="btn bg-amber-400">
+                  <a href="https://react-coffeeshop.vercel.app/" class="projects__link-name">View details</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__container bd-grid md:grid-cols-2 lg:hidden">
+          <div class="projects__img">
+            <img src="assets/img/Tickitz.webp" class="object-center h-[203px] w-[305px]" alt="" />
+            <div class="projects__link">
+              <a href="https://tickitz-seven.vercel.app/" class="projects__link-name">View details</a>
+            </div>
+          </div>
+          <div class="projects__img">
+            <img src="assets/img/Ewallet.webp" class="object-center h-[203px] w-[305px]" alt="" />
+
+            <div class="projects__link">
+              <a href="https://e-wallet-fe-pi.vercel.app/" class="projects__link-name">View details</a>
+            </div>
+          </div>
+          <div class="projects__img">
+            <img src="assets/img/Coffee.webp" class="object-center h-[203px] w-[305px]" alt="" />
+
+            <div class="projects__link">
+              <a href="https://react-coffeeshop.vercel.app/" class="projects__link-name">View details</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section grid bd-grid md:grid-cols-3 items-center justify-center gap-4" id="contact">
+        <h2 class="text-2xl font-bold">Contact</h2>
+
+        <div>
+          <h3 class="contact__subtitle">EMAIL</h3>
+          <span class="contact__text"> kgaffarezka@gmail.com </span>
+        </div>
+
+        <div>
+          <h3 class="contact__subtitle">ADRESS</h3>
+          <span class="contact__text">Bekasi, Jawa Barat, Indonesia</span>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section grid place-items-center text-white">
+      <div class="footer__data">
+        <h2>© Copyright 2024 Khalif Gaffarezka</h2>
+        <div class="flex flex-row items-center">
+          <a href="https://www.linkedin.com/in/khalif-gaffarezka/" class="about__social-icon">
+            <div class="grid place-items-center">
+              <i class="bx bxl-linkedin"></i>
+            </div>
+          </a>
+          <a href="https://github.com/khalifgfrz" class="about__social-icon">
+            <div class="grid place-items-center">
+              <i class="bx bxl-github"></i>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/khalifgfrz_/" class="about__social-icon">
+            <div class="grid place-items-center">
+              <i class="bx bxl-instagram"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
