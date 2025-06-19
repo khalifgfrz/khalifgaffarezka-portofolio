@@ -250,6 +250,14 @@ img {
   color: var(--primary);
   margin-bottom: var(--mb-3);
 }
+.skills__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;    
+  gap: 1rem;
+  margin-top: 2rem;
+}
 .skills__name {
   display: inline-block;
   font-size: var(--small-font-size);
